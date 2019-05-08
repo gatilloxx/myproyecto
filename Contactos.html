@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="CSS/style2.css">
+	<title>Contactos</title>
+</head>
+<body bgcolor="white">
+<form name="Contactos" action="procesar.php" method="post">
+	<fieldset>
+		<legend>Datos Personales</legend>
+	  	Nombre:<br>
+	  	<input type="text" name="Nombre" required="required"><br>
+		Apellido:<br>
+		<input type="text" name="Apellido" required="required"><br>
+	  	Cedula:<br>
+	  	<input type="text" name="Cedula" required="required"><br>
+	    sexo:<br>
+	    <select name="sexo"><br>
+			<option value="masculino">Masculino</option>
+			<option value="femenino">Femenino</option>
+		</select><br>
+		Nacionalidad:<br>
+		<input type="radio" name="Nacionalidad" value="Venezolano">
+		Venezolano
+		<input type="radio" name="Nacionalidad" value="Extranjero">
+		Extranjero <br>
+		Sobre mi:<br>
+		<textarea name="sobremi" rows="8">	
+				</textarea>
+		<br><br>
+		<input type="submit" name="enviar" value="Guardar">
+	</fieldset>
+	</form>
+</body>
+</html>

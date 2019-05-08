@@ -1,0 +1,52 @@
+body{
+	background-image: url("fondo.jpg");
+	color: #3498DB;
+}
+img{
+	border-radius: 15px;
+}
+#logo1:hover{
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	box-shadow: 0px 0px 15px 15px #ec731e;
+	-webkit-box-shadow: 0px 0px 15px 15px #efefef;
+	transform: rotate(360deg);
+-webkit-transform:rotate(360deg);
+}
+#logo2:hover{
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	box-shadow: 0px 0px 15px 15px #ec731e;
+	-webkit-box-shadow: 0px 0px 15px 15px #efefef;
+	transform: rotate(360deg);
+-webkit-transform:rotate(360deg);
+}
+table {
+	border: 3px solid #ec731e;
+}
+th, td {
+	text-align: center;
+	vertical-align: top;
+	border: 1px solid #fff;
+	border-collapse: collapse;
+	padding: 0.3em;
+	caption-side: bottom;
+}
+a:hover{
+	color: black;
+	font-style: italic;
+	text-transform: uppercase;
+}
+a{
+	border-radius: 8px;
+	text-decoration: none;
+	background-color: #00008B;
+	padding: 0.5px;
+	padding-left: 70px;
+	padding-right: 70px;
+	color: white;
+}
+table{
+	border-style: groove;
+	border-color: #3498DB;
+}

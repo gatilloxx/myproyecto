@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>evaluacion 1</title>
+	<script type="text/javascript">
+			var Mes,resultado;
+				function diferencia() {
+					if ((document.month.Mes.value>12)) {
+						alert("se excede")
+
+					}
+					else {
+				Mes=document.month.Mes.value;
+				resultado=07-Mes;
+				document.month.resultado.value=resultado;	
+					}
+
+					}
+					
+				
+
+	</script>
+</head>
+<body><center>
+	
+<form name="month" method="procesar.php" method="post">
+<fieldset>
+<center><legend><h1><strong>diferencia del Mes actual</strong></h1></legend></center>
+	ingrese el numero del Mes:<br> 
+	<input type="number" name="Mes" onClick="diferencia()"><br>
+				<input type="button" name="la" value="presione" onClick="diferencia()"><br>
+	Diferencia:<br>
+	<input type="text" name="resultado" >
+	
+</fieldset>
+</center>
+
+</form>
+</body>
+</html>
